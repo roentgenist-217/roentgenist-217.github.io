@@ -1115,10 +1115,16 @@ a.article-title:hover {
   text-shadow: 0 1px #fff;
   padding: 0 0.3em;
 }
+.article-entry pre {
+  margin: 0 0 1em;
+}
 .article-entry pre code {
   background: none;
   text-shadow: none;
   padding: 0;
+}
+.article-entry .highlight {
+  margin: 0 0 1em;
 }
 .article-entry .highlight pre {
   border: none;
