@@ -15,7 +15,7 @@
 <meta property="og:description" content="先程Aboutページをやっと作り終えまして、さっそく忘れないようにﾒﾓφ(｀д´)φﾒﾓ
 ブログ、人生二回目になります。前回は前やってたサイトの日記代わりで書いてて、独自ドメインも持ってたのでMovableTypeからのWordPressを使っていました。
 ところがなんでかWordPressの設定画面がぶっこわれちゃって、PHPいろいろいじったりMySQLいじたりいろいろやってみたけど結局直せなく">
-<meta property="og:updated_time" content="2017-01-29T08:56:35.000Z">
+<meta property="og:updated_time" content="2017-01-29T09:17:14.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo と Github Pages で作ったよ">
 <meta name="twitter:description" content="先程Aboutページをやっと作り終えまして、さっそく忘れないようにﾒﾓφ(｀д´)φﾒﾓ
@@ -107,7 +107,6 @@
 <h3>設置</h3>
 
 <p>なんだかんだこちらにお世話になる。<br><a href="https://liginc.co.jp/web/programming/server/104594" target="_blank">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></p>
-<hr>
 <h3>拡張</h3>
 
 <p><strong>Aboutmeページ作る。</strong></p>
@@ -127,20 +126,23 @@
 <p><strong>日付とシェアリンクとる</strong></p>
 <p>/themes/landscape/layout/_partial/article.ejs<br>をコピーし、<br>/themes/landscape/layout/_partial/article-page.ejs<br>を作成。</p>
 <p>参考サイトさんでは４行目としていましたが、私のarticle.ejsは３行目にあった</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(&apos;post/date&apos;, &#123;class_name: &apos;article-date&apos;, date_format: null&#125;) %&gt;</div></pre></td></tr></table></figure>
-<p>と、２６行目〜３０行目</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;a data-url=&quot;&lt;%- post.permalink %&gt;&quot;</div><div class="line">〜</div><div class="line">&lt;%- partial(&apos;post/tag&apos;) %&gt;</div></pre></td></tr></table></figure>
-<p>を削除。</p>
+<pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;article-date&apos;, date_format: null}) %&gt;
+</code></pre><p>と、２６行目〜３０行目</p>
+<pre><code>&lt;a data-url=&quot;&lt;%- post.permalink %&gt;&quot;
+〜
+&lt;%- partial(&apos;post/tag&apos;) %&gt;
+</code></pre><p>を削除。</p>
 <p>/themes/landscape/layout/page.ejsの</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(&apos;_partial/article&apos;, &#123;post: page, index: false&#125;) %&gt;</div></pre></td></tr></table></figure>
-<p>を<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(&apos;_partial/article-page&apos;, &#123;post: page, index: false&#125;) %&gt;</div></pre></td></tr></table></figure></p>
-<p>に変更。</p>
+<pre><code>&lt;%- partial(&apos;_partial/article&apos;, {post: page, index: false}) %&gt;
+</code></pre><p>を</p>
+<pre><code>&lt;%- partial(&apos;_partial/article-page&apos;, {post: page, index: false}) %&gt;
+</code></pre><p>に変更。</p>
 <p>参考<br><a href="http://code-ur-life.blogspot.jp/2016/01/hexo.html" target="_blank">Hexoでのリンクの設定</a><br><a href="http://pagent.github.io/2014/11/29/page-no-date/" target="_blank">Hexoの固定ページを日付け無しに</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyifprlj0000fqhlvvcc17y1" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyigdnxo0000qnhlj5cnqohb" class="article-share-link">Partager</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
