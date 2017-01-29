@@ -57,9 +57,9 @@
       </nav>
       <nav id="sub-nav">
         
-          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -69,6 +69,53 @@
 </header>
       <div class="outer">
         <section id="main">
+  
+    <article id="post-Hexo-で更新ページ作るとき" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/29/Hexo-で更新ページ作るとき/" class="article-date">
+  <time datetime="2017-01-29T09:18:41.000Z" itemprop="datePublished">2017-01-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/29/Hexo-で更新ページ作るとき/">Hexo で更新ページ作るとき</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><br></p>
+<pre><code>$ hexo new &quot;タイトル&quot;
+</code></pre><p>でページ作成。</p>
+<pre><code>$ hexo hexo server
+</code></pre><p><a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a><br>で確認</p>
+<pre><code>$ hexo clean
+</code></pre><p>表示されないときがあるのでいったんclean（この表現力）</p>
+<pre><code>$ hexo deploy -g
+</code></pre><p>GitHubPagesにデプロイしてちょっと待つ。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/01/29/Hexo-で更新ページ作るとき/" data-id="ciyigt8f40000tuhlpchifu8z" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
   
     <article id="post-HexoとGithub pagesで作ったよ" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
@@ -137,7 +184,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyigdnxo0000qnhlj5cnqohb" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyigt8f90002tuhlizbmelj3" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -176,7 +223,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/22/My-New-Post/" data-id="ciyigdnxt0002qnhloxsimhz3" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/01/22/My-New-Post/" data-id="ciyigt8fe0004tuhl03ud1q82" class="article-share-link">Share</a>
       
       
     </footer>
@@ -221,7 +268,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/22/hello-world/" data-id="ciyigdnxz0004qnhlqdi1ngqb" class="article-share-link">Partager</a>
+      <a data-url="http://yoursite.com/2017/01/22/hello-world/" data-id="ciyigt8ff0005tuhlhtwiklp6" class="article-share-link">Share</a>
       
       
     </footer>
@@ -241,7 +288,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Mot-clés</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
     </div>
@@ -251,9 +298,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 10px;">Hexo</a>
+      <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a>
     </div>
   </div>
 
@@ -270,9 +317,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Articles récents</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/01/29/Hexo-で更新ページ作るとき/">Hexo で更新ページ作るとき</a>
+          </li>
         
           <li>
             <a href="/2017/01/29/HexoとGithub pagesで作ったよ/">Hexo と Github Pages で作ったよ</a>
@@ -299,7 +350,7 @@
   <div class="outer">
     <div id="footer-info" class="inner">
       &copy; 2017 John Doe<br>
-      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
     </div>
   </div>
 </footer>
