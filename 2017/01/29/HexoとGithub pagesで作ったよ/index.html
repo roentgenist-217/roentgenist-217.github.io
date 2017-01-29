@@ -15,7 +15,7 @@
 <meta property="og:description" content="先程Aboutページをやっと作り終えまして、さっそく忘れないようにﾒﾓφ(｀д´)φﾒﾓ
 ブログ、人生二回目になります。前回は前やってたサイトの日記代わりで書いてて、独自ドメインも持ってたのでMovableTypeからのWordPressを使っていました。
 ところがなんでかWordPressの設定画面がぶっこわれちゃって、PHPいろいろいじったりMySQLいじたりいろいろやってみたけど結局直せなく">
-<meta property="og:updated_time" content="2017-01-29T09:17:14.000Z">
+<meta property="og:updated_time" content="2017-01-29T11:09:32.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo と Github Pages で作ったよ">
 <meta name="twitter:description" content="先程Aboutページをやっと作り終えまして、さっそく忘れないようにﾒﾓφ(｀д´)φﾒﾓ
@@ -66,7 +66,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
@@ -115,7 +115,7 @@
 <p><strong>ヘッダにリンク貼る。</strong></p>
 <p>/themes/landscape/_config.ymlの設定</p>
 <pre>
-  # Header
+# Header
   menu:
     Home: /
     Archives: /archives
@@ -133,16 +133,16 @@
 &lt;%- partial(&apos;post/tag&apos;) %&gt;
 </code></pre><p>を削除。</p>
 <p>/themes/landscape/layout/page.ejsの</p>
-<pre><code>&lt;%- partial(&apos;_partial/article&apos;, {post: page, index: false}) %&gt;
-</code></pre><p>を</p>
-<pre><code>&lt;%- partial(&apos;_partial/article-page&apos;, {post: page, index: false}) %&gt;
-</code></pre><p>に変更。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;<span class="string">`</span></div></pre></td></tr></table></figure>
+<p>を</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article-page'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;</div></pre></td></tr></table></figure>
+<p>に変更。</p>
 <p>参考<br><a href="http://code-ur-life.blogspot.jp/2016/01/hexo.html" target="_blank">Hexoでのリンクの設定</a><br><a href="http://pagent.github.io/2014/11/29/page-no-date/" target="_blank">Hexoの固定ページを日付け無しに</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyiivbn00002c9hlduunbv16" class="article-share-link">Delen</a>
+      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyildj5f0000hbhl6hsu5a0u" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -154,7 +154,7 @@
 <nav id="article-nav">
   
     <a href="/2017/01/29/Hexoで更新ページ作るとき/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Nieuwer</strong>
+      <strong class="article-nav-caption">Newer</strong>
       <div class="article-nav-title">
         
           Hexoで更新ページ作るとき
@@ -164,7 +164,7 @@
   
   
     <a href="/2017/01/22/My-New-Post/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ouder</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">My New Post</div>
     </a>
   
@@ -182,9 +182,9 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Labels</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
-      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li></ul>
     </div>
   </div>
 
@@ -194,14 +194,14 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a>
+      <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
     </div>
   </div>
 
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archieven</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li></ul>
     </div>
@@ -211,9 +211,13 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recente berichten</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
+        
+          <li>
+            <a href="/2017/01/29/Markdown記法で詰まる/">Markdown記法で詰まる</a>
+          </li>
         
           <li>
             <a href="/2017/01/29/Hexoで更新ページ作るとき/">Hexoで更新ページ作るとき</a>
