@@ -15,7 +15,7 @@
 <meta property="og:description" content="先程Aboutページをやっと作り終えまして、さっそく忘れないようにﾒﾓφ(｀д´)φﾒﾓ
 ブログ、人生二回目になります。前回は前やってたサイトの日記代わりで書いてて、独自ドメインも持ってたのでMovableTypeからのWordPressを使っていました。
 ところがなんでかWordPressの設定画面がぶっこわれちゃって、PHPいろいろいじったりMySQLいじたりいろいろやってみたけど結局直せなく">
-<meta property="og:updated_time" content="2017-01-29T11:09:32.000Z">
+<meta property="og:updated_time" content="2017-01-29T11:41:25.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo と Github Pages で作ったよ">
 <meta name="twitter:description" content="先程Aboutページをやっと作り終えまして、さっそく忘れないようにﾒﾓφ(｀д´)φﾒﾓ
@@ -133,7 +133,7 @@
 &lt;%- partial(&apos;post/tag&apos;) %&gt;
 </code></pre><p>を削除。</p>
 <p>/themes/landscape/layout/page.ejsの</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;<span class="string">`</span></div></pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;</div></pre></td></tr></table></figure>
 <p>を</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article-page'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;</div></pre></td></tr></table></figure>
 <p>に変更。</p>
@@ -142,7 +142,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyildj5f0000hbhl6hsu5a0u" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyilitw50006ihhlwfvz253m" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
