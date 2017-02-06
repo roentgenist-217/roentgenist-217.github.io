@@ -70,6 +70,47 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-ちょっとした高さ揃え" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/06/ちょっとした高さ揃え/" class="article-date">
+  <time datetime="2017-02-06T13:51:15.000Z" itemprop="datePublished">2017-02-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/06/ちょっとした高さ揃え/">ちょっとした高さ揃え</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>ほんとちょっとしたやつ。<br>イレギュラーで既存の高さ揃えプラグインが使えず、でも要素の数も決まってて、そこだけ決め打ちすればいい案件。</p>
+<p>apply()初見でした。。。<br>ここから拡張していきたいだす。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line"></div><div class="line">  <span class="comment">//高さ揃えたい要素</span></div><div class="line">  <span class="keyword">var</span> $obj = $(<span class="string">'#height'</span>).find(<span class="string">'.detail'</span>);</div><div class="line">  <span class="comment">//その要素の数</span></div><div class="line">  <span class="keyword">var</span> objLen = $obj.length;</div><div class="line">  <span class="comment">//あとでその要素の高さを配列に入れるよ</span></div><div class="line">  <span class="keyword">var</span> objHeightArr = [];</div><div class="line">  <span class="comment">//その中で一番高い高さを入れる変数定義</span></div><div class="line">  <span class="keyword">var</span> maxHeight;</div><div class="line"></div><div class="line">  <span class="keyword">for</span> ( <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; objLen; i++ )&#123;</div><div class="line">    <span class="comment">//要素の数を回して高さを配列に入れる</span></div><div class="line">    objHeightArr[i] = $obj.eq(i).height();</div><div class="line">    <span class="comment">//一番高い高さ出す</span></div><div class="line">    maxHeight = <span class="built_in">Math</span>.max.apply(<span class="literal">null</span>, objHeightArr);</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">//一番高い高さが出たので要素に高さをセット</span></div><div class="line">  $obj.each(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    $obj.height(maxHeight);</div><div class="line">  &#125;)</div><div class="line"></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/02/06/ちょっとした高さ揃え/" data-id="ciyu69fh200087ghlmcb9yzpf" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-超基本" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/02/05/超基本/" class="article-date">
@@ -114,7 +155,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/05/超基本/" data-id="ciysnnoj70009inhlxr0ebexg" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/02/05/超基本/" data-id="ciyu69fh400097ghla3egaxik" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
@@ -161,7 +202,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/Markdown記法で詰まる/" data-id="ciysnnoiy0004inhl6ncxpwpu" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/29/Markdown記法で詰まる/" data-id="ciyu69fgu00037ghliv42d8pn" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li></ul>
@@ -208,7 +249,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/Hexoで更新ページ作るとき/" data-id="ciysnnoil0000inhlrwtp4ehp" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/29/Hexoで更新ページ作るとき/" data-id="ciyu69fgl00007ghlszxelajm" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -287,7 +328,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciysnnois0002inhl441bng8y" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/29/HexoとGithub pagesで作ったよ/" data-id="ciyu69fgp00017ghlmn069g0j" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
@@ -326,7 +367,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/22/My-New-Post/" data-id="ciysnnoiz0005inhlsjrfw4t8" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/22/My-New-Post/" data-id="ciyu69fgw00047ghl6chm807y" class="article-share-link">Share</a>
       
       
     </footer>
@@ -371,7 +412,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/22/hello-world/" data-id="ciysnnoj20006inhl3q460cm0" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/01/22/hello-world/" data-id="ciyu69fgz00057ghl3sjfi7vw" class="article-share-link">Share</a>
       
       
     </footer>
@@ -414,7 +455,7 @@
   <div class="widget-wrap">
     <h3 class="widget-title">Tag Cloud</h3>
     <div class="widget tagcloud">
-      <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/JavaScript/" style="font-size: 10px;">JavaScript</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
+      <a href="/tags/Github-Pages/" style="font-size: 10px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a>
     </div>
   </div>
 
@@ -436,6 +477,10 @@
       <ul>
         
           <li>
+            <a href="/2017/02/06/ちょっとした高さ揃え/">ちょっとした高さ揃え</a>
+          </li>
+        
+          <li>
             <a href="/2017/02/05/超基本/">超基本</a>
           </li>
         
@@ -449,10 +494,6 @@
         
           <li>
             <a href="/2017/01/29/HexoとGithub pagesで作ったよ/">Hexo と Github Pages で作ったよ</a>
-          </li>
-        
-          <li>
-            <a href="/2017/01/22/My-New-Post/">My New Post</a>
           </li>
         
       </ul>
