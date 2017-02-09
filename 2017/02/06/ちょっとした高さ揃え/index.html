@@ -15,7 +15,7 @@ apply()初見でした。。。ここから拡張していきたいだす。
 <meta property="og:description" content="ほんとちょっとしたやつ。イレギュラーで既存の高さ揃えプラグインが使えず、でも要素の数も決まってて、そこだけ決め打ちすればいい案件。
 apply()初見でした。。。ここから拡張していきたいだす。
 123456789101112131415161718192021222324$(function()&amp;#123;  //高さ揃えたい要素  var $obj = $(&apos;#height&apos;).find(&apos;.d">
-<meta property="og:updated_time" content="2017-02-06T14:06:29.000Z">
+<meta property="og:updated_time" content="2017-02-09T23:53:02.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ちょっとした高さ揃え">
 <meta name="twitter:description" content="ほんとちょっとしたやつ。イレギュラーで既存の高さ揃えプラグインが使えず、でも要素の数も決まってて、そこだけ決め打ちすればいい案件。
@@ -100,11 +100,12 @@ apply()初見でした。。。ここから拡張していきたいだす。
         <p>ほんとちょっとしたやつ。<br>イレギュラーで既存の高さ揃えプラグインが使えず、でも要素の数も決まってて、そこだけ決め打ちすればいい案件。</p>
 <p>apply()初見でした。。。<br>ここから拡張していきたいだす。</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line"></div><div class="line">  <span class="comment">//高さ揃えたい要素</span></div><div class="line">  <span class="keyword">var</span> $obj = $(<span class="string">'#height'</span>).find(<span class="string">'.detail'</span>);</div><div class="line">  <span class="comment">//その要素の数</span></div><div class="line">  <span class="keyword">var</span> objLen = $obj.length;</div><div class="line">  <span class="comment">//あとでその要素の高さを配列に入れるよ</span></div><div class="line">  <span class="keyword">var</span> objHeightArr = [];</div><div class="line">  <span class="comment">//その中で一番高い高さを入れる変数定義</span></div><div class="line">  <span class="keyword">var</span> maxHeight;</div><div class="line"></div><div class="line">  <span class="keyword">for</span> ( <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; objLen; i++ )&#123;</div><div class="line">    <span class="comment">//要素の数を回して高さを配列に入れる</span></div><div class="line">    objHeightArr[i] = $obj.eq(i).height();</div><div class="line">    <span class="comment">//一番高い高さ出す</span></div><div class="line">    maxHeight = <span class="built_in">Math</span>.max.apply(<span class="literal">null</span>, objHeightArr);</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">//一番高い高さが出たので要素に高さをセット</span></div><div class="line">  $obj.each(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    $obj.height(maxHeight);</div><div class="line">  &#125;)</div><div class="line"></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p>参考<br><a href="http://bunka.hatenablog.com/entry/jquery-li-height-adjust" target="_blank">jQuery : 横並びの&lt;li&gt;要素、行ごとに高さを揃えるサンプル - なつみ憂のブログ</a></p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/02/06/ちょっとした高さ揃え/" data-id="ciyu69fh200087ghlmcb9yzpf" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2017/02/06/ちょっとした高さ揃え/" data-id="ciyz1ixvr0009fshlcvsiq0wn" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
