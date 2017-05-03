@@ -3,30 +3,17 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Markdown記法で詰まる | おばあちゃんになってもエンジニア</title>
+  <title>Archives: 2017/5 | おばあちゃんになってもエンジニア</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="コードの表示やコードの中の色変えるやつができなくてハマったけどやっとできた。
-ただのコードだけなら、スペース４回かTab２回。
-&amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;article-date&amp;apos;, date_format: null}) %&amp;gt;
-バッククオート( ` )3つで囲む法だと番号が付く。
-1&amp;lt;%">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Markdown記法で詰まる">
-<meta property="og:url" content="http://yoursite.com/2017/01/29/Markdown記法で詰まる/index.html">
+  <meta name="description" content="アラフォーばついちこもち（女）がフロントエンドエンジニアになったら">
+<meta property="og:type" content="website">
+<meta property="og:title" content="おばあちゃんになってもエンジニア">
+<meta property="og:url" content="http://yoursite.com/archives/2017/05/index.html">
 <meta property="og:site_name" content="おばあちゃんになってもエンジニア">
-<meta property="og:description" content="コードの表示やコードの中の色変えるやつができなくてハマったけどやっとできた。
-ただのコードだけなら、スペース４回かTab２回。
-&amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;article-date&amp;apos;, date_format: null}) %&amp;gt;
-バッククオート( ` )3つで囲む法だと番号が付く。
-1&amp;lt;%">
-<meta property="og:updated_time" content="2017-01-29T11:36:27.000Z">
+<meta property="og:description" content="アラフォーばついちこもち（女）がフロントエンドエンジニアになったら">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Markdown記法で詰まる">
-<meta name="twitter:description" content="コードの表示やコードの中の色変えるやつができなくてハマったけどやっとできた。
-ただのコードだけなら、スペース４回かTab２回。
-&amp;lt;%- partial(&amp;apos;post/date&amp;apos;, {class_name: &amp;apos;article-date&amp;apos;, date_format: null}) %&amp;gt;
-バッククオート( ` )3つで囲む法だと番号が付く。
-1&amp;lt;%">
+<meta name="twitter:title" content="おばあちゃんになってもエンジニア">
+<meta name="twitter:description" content="アラフォーばついちこもち（女）がフロントエンドエンジニアになったら">
   
     <link rel="alternate" href="/atom.xml" title="おばあちゃんになってもエンジニア" type="application/atom+xml">
   
@@ -81,71 +68,39 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-Markdown記法で詰まる" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/01/29/Markdown記法で詰まる/" class="article-date">
-  <time datetime="2017-01-29T11:04:18.000Z" itemprop="datePublished">2017-01-29</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
+        <section id="main">
   
-    <h1 class="article-title" itemprop="name">
-      Markdown記法で詰まる
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2017" class="archive-year">2017</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      <a href="/2017/05/03/Hexoのパーマリンクで404/" class="archive-article-date">
+  <time datetime="2017-05-03T07:19:12.000Z" itemprop="datePublished">May 3</time>
+</a>
+      
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2017/05/03/Hexoのパーマリンクで404/">Hexoのパーマリンクで404</a>
     </h1>
   
 
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>コードの表示やコードの中の色変えるやつができなくてハマったけどやっとできた。</p>
-<p>ただのコードだけなら、スペース４回かTab２回。</p>
-<pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;article-date&apos;, date_format: null}) %&gt;
-</code></pre><p>バッククオート( ` )3つで囲む法だと番号が付く。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(&apos;post/date&apos;, &#123;class_name: &apos;article-date&apos;, date_format: null&#125;) %&gt;</div></pre></td></tr></table></figure>
-<p>これで色がつかない！ってなって、やっと色付けられたやつが、<br>バッククオート( ` )3つのあとに「Javascript」をつける。</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;<span class="string">`</span></div></pre></td></tr></table></figure>
-<p>ちなみにさっきから言ってるこの「色」は「シンタックスハイライト」と言う。<br>覚えた。</p>
-<p>MarkdownについてはQiitaにたくさんあるので参考サイトは割愛。</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/01/29/Markdown記法で詰まる/" data-id="cj28nsuvp000357hld9gdjvah" class="article-share-link">Partager</a>
-      
-      
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li></ul>
-
-    </footer>
+    </header>
   </div>
-  
-    
-<nav id="article-nav">
-  
-    <a href="/2017/02/05/超基本/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Récent</strong>
-      <div class="article-nav-title">
-        
-          超基本
-        
-      </div>
-    </a>
-  
-  
-    <a href="/2017/01/29/Hexoで更新ページ作るとき/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ancien</strong>
-      <div class="article-nav-title">Hexoで更新ページ作るとき</div>
-    </a>
-  
-</nav>
-
-  
 </article>
+  
+  
+    </div></section>
+  
 
 </section>
         
