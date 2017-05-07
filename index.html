@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>おばあちゃんになってもエンジニア</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="弱点:メガネ、プログラマ、千秋先輩">
+<meta property="og:type" content="website">
+<meta property="og:title" content="おばあちゃんになってもエンジニア">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="おばあちゃんになってもエンジニア">
+<meta property="og:description" content="弱点:メガネ、プログラマ、千秋先輩">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="おばあちゃんになってもエンジニア">
+<meta name="twitter:description" content="弱点:メガネ、プログラマ、千秋先輩">
+  
+    <link rel="alternate" href="/atom.xml" title="おばあちゃんになってもエンジニア" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">おばあちゃんになってもエンジニア</a>
+      </h1>
+      
+        <h2 id="subtitle-wrap">
+          <a href="/" id="subtitle">…が人生の目標のフロントエンドエンジニアのLog</a>
+        </h2>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+          <a class="main-nav-link" href="/about-me/">About me</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="Flux RSS"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Rechercher"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-メモ" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/05/04/メモ/" class="article-date">
+  <time datetime="2017-05-04T04:16:27.000Z" itemprop="datePublished">2017-05-04</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/05/04/メモ/">GithubPagesに静的ページ置こうとしたときのメモ</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>いろいろ詰まった問題。<br>先駆者様たちありがとうございます！</p>
+<hr>
+<p>Githubの複数アカウントのsshキー設定。<br><a href="http://dev.classmethod.jp/tool/github-ssh-sub-account-setting/" target="_blank" rel="external">【メモ】githubの複数アカウントにSSH接続するための設定手順</a></p>
+<p>んで、remoteで移動。<br><a href="http://qiita.com/okappy/items/8fb3dacf176b45db85eb" target="_blank" rel="external">githubの複数アカウントの扱い方</a></p>
+<p>正しい設定してるはずなのにエラー出るときはMac再起動で。</p>
+<hr>
+<p>リポジトリの名前変えたらエラー。<br><a href="http://qiita.com/bird_tummy/items/216d760c9c05e8470014" target="_blank" rel="external">Git でリモートリポジトリの URL を再設定する方法</a></p>
+<hr>
+<p>いったんpushしたファイル変更してもっかいpushしたらとにかくエラー。<br><a href="http://hacknote.jp/archives/15275/" target="_blank" rel="external">git pushがrejectされたときの対応方法</a></p>
+<hr>
+<p>最終的に、<br>１.なんでもいいからindex.htmlを/ユーザー名/ユーザー名.github.io/にpush？？（ちょっとまだわからない）<br>　→<a href="https://ユーザー名.github.io/" target="_blank" rel="external">https://ユーザー名.github.io/</a><br>2.動かすファイルを/ユーザー名/リポジトリ名/にpush<br>3.リポジトリページの右上のSetting→Sourceで「master branch」を選択<br>　→<a href="https://ユーザー名.github.io/リポジトリ名/" target="_blank" rel="external">https://ユーザー名.github.io/リポジトリ名/</a></p>
+<hr>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/05/04/メモ/" data-id="cj2e63a5z000dmthlc844q84t" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github/">Github</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/git/">git</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/ssh/">ssh</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Hexoのパーマリンクで404" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/05/03/Hexoのパーマリンクで404/" class="article-date">
+  <time datetime="2017-05-03T07:19:12.000Z" itemprop="datePublished">2017-05-03</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/05/03/Hexoのパーマリンクで404/">Hexoのパーマリンクで404</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>今まで全然気付かなかった…<br>ぐぐったらよくあることなんかーい。</p>
+<p>こちらの対応で成功。</p>
+<p><a href="https://harasou.jp/2015/06/28/hexo-goodby-404/" target="_blank" rel="external">hexo の 404 File not found さようなら</a></p>
+<p>プラグインってステキ。<br>_config.ymlまるっと書き換えてくれた。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/05/03/Hexoのパーマリンクで404/" data-id="cj2e63a5o0005mthlrjzf76jv" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-年度末でした。" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/04/02/年度末でした。/" class="article-date">
+  <time datetime="2017-04-02T08:09:53.000Z" itemprop="datePublished">2017-04-02</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/04/02/年度末でした。/">年度末でした。</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>残業まつりの中、息も絶え絶え生きておりました。<br>入社３年目で初、こんなに複数案件持って年度末を迎えた次第であります。<br>制作会社ではぜんっぜんあまあまな状態だと思いますが、ほんとに４，５時間寝るだけ（＆子どもたちと猫様たちにご飯与えるだけ＆洗濯するだけ）に家帰るってことあるんだなーと思いつつ、私わりとロングスリーパーなので意外と毎日短時間睡眠でもいけるんだ、人生何十年も損してたと思ったけど土日にそれぞれ１２時間以上寝るっつー事実も分かりやっぱりロングスリーパー。</p>
+<p>壊れ出す日本語。</p>
+<p>土日も家で仕事してたので３月はまったく勉強できず。<br>その代わり、レスポンシブ案件に携われたのでレスポンシブの知識がどかんと増えました。</p>
+<p>今更ね…</p>
+<p>作ったプラグインも拡張してみたけど結局遣わなかった〜残念。</p>
+<p>あと、いつもやってる小手先のDOM操作だけじゃどうにもできないページ全体を使うおっきいJSを２つ書いた。<br>でもさらっと書けるわけもなく、先生と東京のエンジニアさん二人に助けてもらってやっと出来上がった感じ。</p>
+<p>まだまだだなぁ。</p>
+<p>時間もなくてコードもめちゃくちゃなので、復習しながら整理しなきゃです。</p>
+<p>しかしとにかくPSSP共に全ブラウザが一つになれ！！と思った案件ズだった…</p>
+<p>とりあえずメモメモ。<br>・IE、Safariは、animate()イベントで”+=”&amp;”-=”が効かない！（先に変数セットしとく）<br>・Androidは強制的スクロールさせてもURLバー消せない！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/04/02/年度末でした。/" data-id="cj2e63a62000gmthld1yud7iu" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-ちょっとした高さ揃え" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/06/ちょっとした高さ揃え/" class="article-date">
+  <time datetime="2017-02-06T13:51:15.000Z" itemprop="datePublished">2017-02-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/06/ちょっとした高さ揃え/">ちょっとした高さ揃え</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>ほんとちょっとしたやつ。<br>イレギュラーで既存の高さ揃えプラグインが使えず、でも要素の数も決まってて、そこだけ決め打ちすればいい案件。</p>
+<p>apply()初見でした。。。<br>ここから拡張していきたいだす。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div></pre></td><td class="code"><pre><div class="line">$(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line"></div><div class="line">  <span class="comment">//高さ揃えたい要素</span></div><div class="line">  <span class="keyword">var</span> $obj = $(<span class="string">'#height'</span>).find(<span class="string">'.detail'</span>);</div><div class="line">  <span class="comment">//その要素の数</span></div><div class="line">  <span class="keyword">var</span> objLen = $obj.length;</div><div class="line">  <span class="comment">//あとでその要素の高さを配列に入れるよ</span></div><div class="line">  <span class="keyword">var</span> objHeightArr = [];</div><div class="line">  <span class="comment">//その中で一番高い高さを入れる変数定義</span></div><div class="line">  <span class="keyword">var</span> maxHeight;</div><div class="line"></div><div class="line">  <span class="keyword">for</span> ( <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; objLen; i++ )&#123;</div><div class="line">    <span class="comment">//要素の数を回して高さを配列に入れる</span></div><div class="line">    objHeightArr[i] = $obj.eq(i).height();</div><div class="line">    <span class="comment">//一番高い高さ出す</span></div><div class="line">    maxHeight = <span class="built_in">Math</span>.max.apply(<span class="literal">null</span>, objHeightArr);</div><div class="line">  &#125;</div><div class="line"></div><div class="line">  <span class="comment">//一番高い高さが出たので要素に高さをセット</span></div><div class="line">  $obj.each(<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</div><div class="line">    $obj.height(maxHeight);</div><div class="line">  &#125;)</div><div class="line"></div><div class="line">&#125;);</div></pre></td></tr></table></figure>
+<p>参考<br><a href="http://bunka.hatenablog.com/entry/jquery-li-height-adjust" target="_blank">jQuery : 横並びの&lt;li&gt;要素、行ごとに高さを揃えるサンプル - なつみ憂のブログ</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/02/06/ちょっとした高さ揃え/" data-id="cj2e63a5v0009mthlr12htgky" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-超基本" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/02/05/超基本/" class="article-date">
+  <time datetime="2017-02-05T06:05:42.000Z" itemprop="datePublished">2017-02-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/02/05/超基本/">超基本</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>どうやらforとifあたりを理解してない。<br>自分の脳ミソの中ではちゃんと回ってるが、師匠によるとなんでこんな書き方してんの？ってなるらしい。</p>
+<p>なので改めて基本。</p>
+<p>while( 条件式 ){<br>　条件式がtrueのときだけ実行される命令<br>}</p>
+<p>前置判断。<br>条件によっては一度もループしない。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> x = <span class="number">5</span>;</div><div class="line"><span class="keyword">while</span>( x &lt; <span class="number">10</span>)&#123;</div><div class="line">    x++;</div><div class="line">    <span class="built_in">console</span>.log(x);</div><div class="line">&#125;</div><div class="line"><span class="comment">//5 6 7 8 9</span></div></pre></td></tr></table></figure>
+<p>do{<br>　条件式がtrueのときだけ実行される命令<br>} while ( 条件式 );</p>
+<p>後値判断。<br>最低一回はループする。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> x = <span class="number">5</span>;</div><div class="line"><span class="keyword">do</span>&#123;</div><div class="line">    x++;</div><div class="line">    <span class="built_in">console</span>.log(x);</div><div class="line">&#125; <span class="keyword">while</span>( x &lt; <span class="number">10</span> );</div><div class="line"><span class="comment">//6 7 8 9 10</span></div></pre></td></tr></table></figure>
+<p>for( 初期化式; ループ継続条件式; 増減式 ){<br>　ループ内で実行する命令<br>}</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">for</span>( <span class="keyword">var</span> x = <span class="number">5</span>; x &lt; <span class="number">10</span>; x++)&#123;</div><div class="line">    <span class="built_in">console</span>.log(x)</div><div class="line">&#125;</div><div class="line"><span class="comment">//5 6 7 8 9</span></div></pre></td></tr></table></figure>
+<p>for( 仮変数 in 連想配列){<br>　ループ内で実行する命令<br>}<br>配列では使わないようがいいらしい。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arashi = &#123; 大野:<span class="number">36</span>, 櫻井:<span class="number">35</span>, 相葉:<span class="number">34</span>, 二宮:<span class="number">33</span>, 松本:<span class="number">33</span> &#125;</div><div class="line"><span class="keyword">for</span>( <span class="keyword">var</span> key <span class="keyword">in</span> arashi)&#123;</div><div class="line">    <span class="built_in">console</span>.log(key + <span class="string">'='</span> + arashi[key])</div><div class="line">&#125;</div><div class="line"><span class="comment">//大野=36 櫻=35 相葉=34 二宮=33 松本=33</span></div></pre></td></tr></table></figure>
+<p>…ので、配列のとき。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arashi = [<span class="string">'大野'</span>, <span class="string">'櫻井'</span>, <span class="string">'相葉'</span>, <span class="string">'二宮'</span>, <span class="string">'松本'</span>];</div><div class="line"><span class="keyword">for</span>( <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arashi.length; i++)&#123;</div><div class="line">    <span class="built_in">console</span>.log(arashi[i])</div><div class="line">&#125;</div><div class="line"><span class="comment">//大野 櫻井 相葉 二宮 松本</span></div></pre></td></tr></table></figure></p>
+<p>配列のとき for…of Ver.。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arashi = [<span class="string">'大野'</span>, <span class="string">'櫻井'</span>, <span class="string">'相葉'</span>, <span class="string">'二宮'</span>, <span class="string">'松本'</span>];</div><div class="line"><span class="keyword">for</span> (<span class="keyword">var</span> value <span class="keyword">of</span> arashi)&#123;</div><div class="line">    <span class="built_in">console</span>.log(value) ;</div><div class="line">&#125;</div><div class="line"><span class="comment">//大野 櫻井 相葉 二宮 松本</span></div></pre></td></tr></table></figure></p>
+<p>breakで止めるよ。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arashi = [<span class="string">'大野'</span>, <span class="string">'櫻井'</span>, <span class="string">'相葉'</span>, <span class="string">'二宮'</span>, <span class="string">'松本'</span>];</div><div class="line"><span class="keyword">for</span>( <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arashi.length; i++)&#123;</div><div class="line">    <span class="keyword">if</span>( arashi[i]  === <span class="string">"相葉"</span>)&#123;</div><div class="line">        <span class="keyword">break</span>;</div><div class="line">    &#125;</div><div class="line">&#125;</div><div class="line"><span class="comment">//大野 櫻井</span></div></pre></td></tr></table></figure>
+<p>continueでスキップするよ。<br><figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> arashi = [<span class="string">'大野'</span>, <span class="string">'櫻井'</span>, <span class="string">'相葉'</span>, <span class="string">'二宮'</span>, <span class="string">'松本'</span>];</div><div class="line"><span class="keyword">for</span>( <span class="keyword">var</span> i = <span class="number">0</span>; i &lt; arashi.length; i++)&#123;</div><div class="line">    <span class="keyword">if</span>( arashi[i]  === <span class="string">"相葉"</span>)&#123;</div><div class="line">        <span class="keyword">continue</span>;</div><div class="line">    &#125;</div><div class="line">    <span class="built_in">console</span>.log(arashi[i])</div><div class="line">&#125;</div><div class="line"><span class="comment">//大野 櫻井 二宮 松本</span></div></pre></td></tr></table></figure></p>
+<p>続くかも。<br>ってか書き方間違ってないよなー</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/02/05/超基本/" data-id="cj2e63a60000emthl3sqxjo34" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/JavaScript/">JavaScript</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Markdown記法で詰まる" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/29/Markdown記法で詰まる/" class="article-date">
+  <time datetime="2017-01-29T11:04:18.000Z" itemprop="datePublished">2017-01-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/29/Markdown記法で詰まる/">Markdown記法で詰まる</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>コードの表示やコードの中の色変えるやつができなくてハマったけどやっとできた。</p>
+<p>ただのコードだけなら、スペース４回かTab２回。</p>
+<pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;article-date&apos;, date_format: null}) %&gt;
+</code></pre><p>バッククオート( ` )3つで囲む法だと番号が付く。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(&apos;post/date&apos;, &#123;class_name: &apos;article-date&apos;, date_format: null&#125;) %&gt;</div></pre></td></tr></table></figure>
+<p>これで色がつかない！ってなって、やっと色付けられたやつが、<br>バッククオート( ` )3つのあとに「Javascript」をつける。</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;<span class="string">`</span></div></pre></td></tr></table></figure>
+<p>ちなみにさっきから言ってるこの「色」は「シンタックスハイライト」と言う。<br>覚えた。</p>
+<p>MarkdownについてはQiitaにたくさんあるので参考サイトは割愛。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/01/29/Markdown記法で詰まる/" data-id="cj2e63a5d0002mthlovqnmubr" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Markdown/">Markdown</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Hexoで更新ページ作るとき" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/29/Hexoで更新ページ作るとき/" class="article-date">
+  <time datetime="2017-01-29T09:18:41.000Z" itemprop="datePublished">2017-01-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/29/Hexoで更新ページ作るとき/">Hexoで更新ページ作るとき</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p><br></p>
+<pre><code>$ hexo new &quot;タイトル&quot;
+</code></pre><p>でページ作成。</p>
+<pre><code>$ hexo server
+</code></pre><p><a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a><br>で確認。</p>
+<pre><code>$ hexo clean
+</code></pre><p>表示されないときがあるのでいったんclean（この表現力）</p>
+<pre><code>$ hexo deploy -g
+</code></pre><p>GitHubPagesにデプロイしてちょっと待つ。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/01/29/Hexoで更新ページ作るとき/" data-id="cj2e63a560000mthl1w1grd2u" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-HexoとGithubpagesで作ったよ" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/29/HexoとGithubpagesで作ったよ/" class="article-date">
+  <time datetime="2017-01-29T04:01:35.000Z" itemprop="datePublished">2017-01-29</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/29/HexoとGithubpagesで作ったよ/">Hexo と Github Pages で作ったよ</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>先程Aboutページをやっと作り終えまして、さっそく忘れないようにﾒﾓφ(｀д´)φﾒﾓ</p>
+<p>ブログ、人生二回目になります。<br>前回は前やってたサイトの日記代わりで書いてて、独自ドメインも持ってたのでMovableTypeからのWordPressを使っていました。</p>
+<p>ところがなんでかWordPressの設定画面がぶっこわれちゃって、PHPいろいろいじったりMySQLいじったりいろいろやってみたけど結局直せなくてやめちゃった。</p>
+<p>今回はなんでこの環境にしようとしたかというと、WordPressするには鯖関係めんどいし重い、はてぶだと楽すぎ、新しく自分で環境構築したい、などの理由があげられます。</p>
+<p>HexoにしたのはJavaScriptだから。</p>
+<p>ぐぐって先駆者さんたちの知恵を拝借、設置自体はとてもカンタンでした〜</p>
+<hr>
+<h3>設置</h3>
+
+<p>なんだかんだこちらにお世話になる。<br><a href="https://liginc.co.jp/web/programming/server/104594" target="_blank">所要時間3分!? Github PagesとHEXOで爆速ブログ構築してみよう！</a></p>
+<h3>拡張</h3>
+
+<p><strong>Aboutmeページ作る。</strong></p>
+<pre>$ hexo new page about-me</pre>
+
+<p><strong>ヘッダにリンク貼る。</strong></p>
+<p>/themes/landscape/_config.ymlの設定</p>
+<pre>
+# Header
+  menu:
+    Home: /
+    Archives: /archives
+    About me: /about-me/
+  rss: /atom.xml
+</pre>
+
+<p><strong>日付とシェアリンクとる</strong></p>
+<p>/themes/landscape/layout/_partial/article.ejs<br>をコピーし、<br>/themes/landscape/layout/_partial/article-page.ejs<br>を作成。</p>
+<p>参考サイトさんでは４行目としていましたが、私のarticle.ejsは３行目にあった</p>
+<pre><code>&lt;%- partial(&apos;post/date&apos;, {class_name: &apos;article-date&apos;, date_format: null}) %&gt;
+</code></pre><p>と、２６行目〜３０行目</p>
+<pre><code>&lt;a data-url=&quot;&lt;%- post.permalink %&gt;&quot;
+〜
+&lt;%- partial(&apos;post/tag&apos;) %&gt;
+</code></pre><p>を削除。</p>
+<p>/themes/landscape/layout/page.ejsの</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;</div></pre></td></tr></table></figure>
+<p>を</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">&lt;%- partial(<span class="string">'_partial/article-page'</span>, &#123;<span class="attr">post</span>: page, <span class="attr">index</span>: <span class="literal">false</span>&#125;) %&gt;</div></pre></td></tr></table></figure>
+<p>に変更。</p>
+<p>参考<br><a href="http://code-ur-life.blogspot.jp/2016/01/hexo.html" target="_blank">Hexoでのリンクの設定</a><br><a href="http://pagent.github.io/2014/11/29/page-no-date/" target="_blank">Hexoの固定ページを日付け無しに</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/01/29/HexoとGithubpagesで作ったよ/" data-id="cj2e63a5j0004mthlxochr76i" class="article-share-link">Partager</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-My-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/22/My-New-Post/" class="article-date">
+  <time datetime="2017-01-22T09:44:56.000Z" itemprop="datePublished">2017-01-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/22/My-New-Post/">My New Post</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>昔ROENTGENというサイトがありました。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/01/22/My-New-Post/" data-id="cj2e63a5x000bmthl6civ3kzl" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2017/01/22/hello-world/" class="article-date">
+  <time datetime="2017-01-22T09:24:21.000Z" itemprop="datePublished">2017-01-22</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2017/01/22/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2017/01/22/hello-world/" data-id="cj2e63a5p0006mthl9humr2sh" class="article-share-link">Partager</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">about</h3>
+    <div class="widget">
+      とてもプログラム初心者の覚え書き。<br>
+    </div>
+  </div>
+
+
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Mot-clés</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github/">Github</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Github-Pages/">Github Pages</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/JavaScript/">JavaScript</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Markdown/">Markdown</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/git/">git</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/ssh/">ssh</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Nuage de mot-clés</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Github/" style="font-size: 10px;">Github</a> <a href="/tags/Github-Pages/" style="font-size: 15px;">Github Pages</a> <a href="/tags/Hexo/" style="font-size: 20px;">Hexo</a> <a href="/tags/JavaScript/" style="font-size: 15px;">JavaScript</a> <a href="/tags/Markdown/" style="font-size: 10px;">Markdown</a> <a href="/tags/git/" style="font-size: 10px;">git</a> <a href="/tags/ssh/" style="font-size: 10px;">ssh</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/05/">May 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/04/">April 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/02/">February 2017</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/01/">January 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Articles récents</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2017/05/04/メモ/">GithubPagesに静的ページ置こうとしたときのメモ</a>
+          </li>
+        
+          <li>
+            <a href="/2017/05/03/Hexoのパーマリンクで404/">Hexoのパーマリンクで404</a>
+          </li>
+        
+          <li>
+            <a href="/2017/04/02/年度末でした。/">年度末でした。</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/06/ちょっとした高さ揃え/">ちょっとした高さ揃え</a>
+          </li>
+        
+          <li>
+            <a href="/2017/02/05/超基本/">超基本</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2017 John Doe<br>
+      Propulsé by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/about-me/" class="mobile-nav-link">About me</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>
